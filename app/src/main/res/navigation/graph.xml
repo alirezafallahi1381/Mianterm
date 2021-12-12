@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/graph"
+    app:startDestination="@id/fragme_thabtname">
+
+    <fragment
+        android:id="@+id/fragme_thabtname"
+        android:name="com.example.mianterm.Fragme_thabtname"
+        android:label="fragment_fragme_thabtname"
+        tools:layout="@layout/fragment_fragme_thabtname" >
+        <action
+            android:id="@+id/action_fragme_thabtname_to_fragme_moshakhasat"
+            app:destination="@id/fragme_moshakhasat" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragme_moshakhasat"
+        android:name="com.example.mianterm.Fragme_moshakhasat"
+        android:label="fragment_fragme_moshakhasat"
+        tools:layout="@layout/fragment_fragme_moshakhasat" />
+</navigation>

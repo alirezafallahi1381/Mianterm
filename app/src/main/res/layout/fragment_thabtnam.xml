@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Thabtnam">
+
+    <EditText
+        android:id="@+id/txt_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="اییمیل" />
+
+    <EditText
+        android:id="@+id/txt_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="رمز عبور" />
+
+
+    <EditText
+        android:id="@+id/txt_tekrar_Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="تکرار رمز عبور" />
+
+    <EditText
+        android:id="@+id/txt_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="شماره تلفن" />
+
+    <EditText
+        android:id="@+id/txt_addres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="آدرس" />
+
+    <EditText
+        android:id="@+id/txt_codeposti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number|textPersonName"
+        android:text="کد پستی" />
+
+    <CheckBox
+        android:id="@+id/chbx_ghavanin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="تاید قوانین" />
+
+    <Button
+        android:id="@+id/btn_thabt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ثبت" />
+
+
+</FrameLayout>
